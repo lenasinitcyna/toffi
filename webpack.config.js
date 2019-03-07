@@ -3,7 +3,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: [
-        'babel-polyfill', 
+        '@babel/polyfill', 
         './src/js/index.js'
     ],
     output: {
@@ -19,7 +19,7 @@ module.exports = {
             template: './src/index.html'
         })
     ],
-    modules: {
+    module: {
         rules: [
             {
                 test: /\.js$/,
