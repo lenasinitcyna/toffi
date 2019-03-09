@@ -40,3 +40,12 @@ elements.searchForm.addEventListener('submit', e => {
     controlSearch();
 });
 
+elements.searchRes.addEventListener('click', e => {
+    const btn = e.target.closest('.btn-inline');
+    if(btn){
+        const btnDirection = parseInt(btn.dataset.btndirection, 10);
+        searchView.clearReslts();
+        searchView.renderResults(state.search.result, btnDirection);
+    }
+});
+
