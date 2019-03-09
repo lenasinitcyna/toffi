@@ -62,7 +62,21 @@ body {
   .btn > *:first-child{
     margin-right: 1rem; }
 
-
+    
+.loader {
+  margin: 5rem auto;
+  text-align: center; }
+  .loader svg {
+    height: 5.5rem;
+    width: 5.5rem;
+    fill: #D7CDE6;
+    transform-origin: 44% 50%;
+    animation: rotate 1.5s infinite linear; }
+    @keyframes rotate {
+      0% {
+        transform: rotate(0); }
+      100% {
+        transform: rotate(360deg); } }
 /*******************************
     HEADER 
 ********************************/
