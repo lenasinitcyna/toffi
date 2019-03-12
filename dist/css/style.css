@@ -199,6 +199,8 @@ body {
     .results__link:hover{
       background-color: #f6f6f6;
       transform: translateY(-2px); }
+    .results__link--active{
+      background-color: #F9F5F3; }
   .results__fig{
     flex: 0 0 5.5rem;
     border-radius: 50%;
