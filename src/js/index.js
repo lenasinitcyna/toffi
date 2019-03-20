@@ -15,7 +15,6 @@ import {elements, renderLoader, clearLoader} from './views/base';
  */
 
 const state = {};
-window.state = state;
 
 /** 
  * SEARCH CONTROLLER 
